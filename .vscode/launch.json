@@ -10,9 +10,15 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
+<<<<<<< HEAD
             "program": "${workspaceFolder}/keepr/bin/Debug/net6.0/keepr.dll",
             "args": [],
             "cwd": "${workspaceFolder}/keepr",
+=======
+            "program": "${workspaceFolder}/bin/Debug/net6.0/keepr.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+>>>>>>> 24f66ff (save)
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
